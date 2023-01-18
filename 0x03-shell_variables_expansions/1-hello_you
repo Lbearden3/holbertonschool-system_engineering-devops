@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello\MyUser $user'
+echo id "hello\MyUser $user"
