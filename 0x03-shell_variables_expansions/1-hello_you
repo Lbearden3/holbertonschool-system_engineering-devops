@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello_MyUser $user"
+echo "hello|MyUser $user"
