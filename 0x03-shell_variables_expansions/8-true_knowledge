@@ -1,2 +1,2 @@
 #!/bin/bash
-$=TRUEKNOWLEDGE=1209
+$=((TRUEKNOWLEDGE=1209))
