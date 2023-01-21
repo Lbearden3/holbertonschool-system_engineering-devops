@@ -3,5 +3,5 @@
 COUNTER=10
 until [ $COUNTER -lt 1 ];do
 echo "Best School"
-let COUNTER=1
+let COUNTER-=1
 done
