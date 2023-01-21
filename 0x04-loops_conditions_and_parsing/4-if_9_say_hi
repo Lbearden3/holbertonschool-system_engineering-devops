@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Display Holberton School 10 times, with Hi on the ninth
+# Display Best School 10 times, with Hi on the ninth
 COUNTER=0
 while [ $COUNTER -lt 10 ];do
 echo "Best School"
