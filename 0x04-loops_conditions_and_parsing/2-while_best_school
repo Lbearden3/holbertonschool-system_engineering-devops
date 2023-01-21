@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-
+Displays Best School 10 times
+COUNTER=10
+[$COUNTER -lt 1];do
+echo "Holberton School"
+let COUNTER=1
