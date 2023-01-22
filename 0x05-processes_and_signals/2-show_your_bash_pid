@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Displays the PID - bash
 # shellcheck disable=SC2009
-ps -auxf
-echo "PID of this script:$$"
+ps -auxf | "PID of this script:$$"
