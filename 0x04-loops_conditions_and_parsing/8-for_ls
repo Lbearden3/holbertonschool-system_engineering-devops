@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-
+# Displays current directory in list format with part of name after - displayed
+for i in *; do echo "$i" | cut -d "-" -f2; done
