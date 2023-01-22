@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Display bash PID without PS
+"PID of this script:$$"
