@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Display bash PID without PS
 # shellcheck disable=SC2009
-"PID of this script: bash"
+"PID of this script: $$"
