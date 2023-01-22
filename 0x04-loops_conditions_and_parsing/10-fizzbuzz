@@ -1,2 +1,19 @@
 #!/usr/bin/env bash
-
+# Displays numbers 1-100 fizz buzz
+COUNTER=1
+while [ "$COUNTER" -lt 101 ];
+do
+	if [ $((COUNTER % 3)) -eq 0 ] && [ $((COUNTER % 5)) -ne 0 ]
+	then
+		echo "Fizz"
+	elif [ $((COUNTER % 3)) -ne 0 ] && [ $((COUNTER % 5)) -eq 0 ]
+	then
+		echo "Buzz"
+	elif [ $((COUNTER % 3)) -eq 0 ] && [ $((COUNTER % 5)) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	else
+		echo "$COUNTER"
+	fi
+	((COUNTER++))
+done
