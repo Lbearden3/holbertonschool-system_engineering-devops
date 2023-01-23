@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script that kills the beheaded process
+pkill --signal 9 -f 7-highlander
