@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Script that kills the beheaded process
+# shellcheck disable=SC2009
 pkill --signal 9 -f 7-highlander
