@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n --lines=-3 iacta
+awk -F ‘:’ ‘{print $3}’ iacta
